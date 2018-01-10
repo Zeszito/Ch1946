@@ -87,6 +87,7 @@
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\script\openInvetory.cs" />
     <Compile Include="Assets\showInfo.cs" />
+    <Compile Include="Assets\showme.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />

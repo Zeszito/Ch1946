@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.123
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12379659, g: 0.12697911, b: 0.1177857, a: 0.123}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.123}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -4045,7 +4045,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &320153954
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4672,7 +4672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &380447770
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5804,9 +5804,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Well, the way they make shows is, they make one show. That show's called
     a pilot. Then they show that show to the people who make shows, and on the strength
-    of that one show they decide if they're going to make more shows. Some pilots
-    get picked and become television programs. Some don't, become nothing. She starred
-    in one of the ones that became nothing.\r\n"
+    oome nothing. She starred in one of the ones that became nothing.\r\n"
 --- !u!222 &463710766
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14488,7 +14486,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &756844101
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15184,11 +15182,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Well, the way they make shows is, they make one show. That show's called
-    a pilot. Then they show that show to the people who make shows, and on the strength
-    of that one show they decide if they're going to make more shows. Some pilots
-    get picked and become television programs. Some don't, become nothing. She starred
-    in one of the ones that became nothing.\r\n"
+  m_Text: "Well, the way they make shows is, they make one show. That show's callen
+    they show that show to the people who make shows, and on the strength of that
+    one show they decide if they're going to make more shows. Some pilots get picked
+    and become television programs. Some don't, become nothing. She starred in one
+    of the ones that became nothing.\r\n"
 --- !u!222 &815418858
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19245,11 +19243,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Well, the way they make shows is, they make one show. That show's called
-    a pilot. Then they show that show to the people who make shows, and on the strength
-    of that one show they decide if they're going to make more shows. Some pilots
-    get picked and become television programs. Some don't, become nothing. She starred
-    in one of the ones that became nothing.\r\n"
+  m_Text: " shows is, they make one show. That show's called a pilot. Then they show
+    that show to the people who make shows, and on the strength of that one show they
+    decide if they're going to make more shows. Some pilots get picked and become
+    television programs. Some don't, become nothing. She starred in one of the ones
+    that became nothing.\r\n"
 --- !u!222 &1141266926
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24147,6 +24145,7 @@ GameObject:
   - component: {fileID: 1545179101}
   - component: {fileID: 1545179100}
   - component: {fileID: 1545179104}
+  - component: {fileID: 1545179105}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -24245,6 +24244,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1545179099}
+--- !u!114 &1545179105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545179099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221b82d0c3716644abba3ebda7e9ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myButton: {fileID: 905341760}
+  text1: {fileID: 756844100}
+  myButton2: {fileID: 179365315}
+  text2: {fileID: 1969020205}
+  myButton3: {fileID: 1376842305}
+  text3: {fileID: 320153953}
+  myButton4: {fileID: 1922666548}
+  text4: {fileID: 380447769}
 --- !u!1 &1548408908 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100572, guid: 93a8aff09802a1e4081be1bbd0777a9c, type: 3}
@@ -25486,7 +25504,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1654191584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -58, y: 49.53, z: -188}
+  m_LocalPosition: {x: 31, y: 49.53, z: -149}
   m_LocalScale: {x: 3.4489238, y: 2.604579, z: 3.4489257}
   m_Children:
   - {fileID: 1003398521}
@@ -29101,7 +29119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1969020206
 RectTransform:
   m_ObjectHideFlags: 0
